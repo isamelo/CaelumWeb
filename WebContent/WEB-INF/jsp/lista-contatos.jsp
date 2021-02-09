@@ -13,7 +13,7 @@
 </head>
 <body>
 
-	<c:import url="cabecalho.jsp" />
+	<c:import url="/cabecalho.jsp" />
 
 	<table>
 		<!-- Percorre contatos montando	as linhas da tabela	-->
@@ -47,6 +47,6 @@
 			</tr>
 		</c:forEach>
 	</table>
-	<c:import url="rodape.jsp" />
+	<c:import url="/rodape.jsp" />
 </body>
 </html>
